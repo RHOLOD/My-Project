@@ -1,0 +1,45 @@
+C:\Users\ALEXANDR\source\repos\Задание Универ\task6\task5\bin\Debug\task5.exe
+C:\Users\ALEXANDR\source\repos\Задание Универ\task6\task5\bin\Debug\task5.pdb
+C:\Users\ALEXANDR\source\repos\Задание Универ\task6\task5\obj\Debug\task6.csprojAssemblyReference.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\task6\task5\obj\Debug\task5.Form1.resources
+C:\Users\ALEXANDR\source\repos\Задание Универ\task6\task5\obj\Debug\task5.Properties.Resources.resources
+C:\Users\ALEXANDR\source\repos\Задание Универ\task6\task5\obj\Debug\task6.csproj.GenerateResource.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\task6\task5\obj\Debug\task6.csproj.CoreCompileInputs.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\task6\task5\obj\Debug\task5.exe
+C:\Users\ALEXANDR\source\repos\Задание Универ\task6\task5\obj\Debug\task5.pdb
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task6\task5\bin\Debug\task5.exe
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task6\task5\bin\Debug\task5.pdb
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task6\task5\obj\Debug\task6.csprojAssemblyReference.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task6\task5\obj\Debug\task5.Form1.resources
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task6\task5\obj\Debug\task5.Properties.Resources.resources
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task6\task5\obj\Debug\task6.csproj.GenerateResource.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task6\task5\obj\Debug\task6.csproj.CoreCompileInputs.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task6\task5\obj\Debug\task5.exe
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task6\task5\obj\Debug\task5.pdb
+C:\Users\ALEXANDR\Desktop\task6\task5\obj\Debug\task6.csprojAssemblyReference.cache
+C:\Users\ALEXANDR\Desktop\task6\task5\obj\Debug\task5.Form1.resources
+C:\Users\ALEXANDR\Desktop\task6\task5\obj\Debug\task5.Properties.Resources.resources
+C:\Users\ALEXANDR\Desktop\task6\task5\obj\Debug\task6.csproj.GenerateResource.cache
+C:\Users\ALEXANDR\Desktop\task6\task5\obj\Debug\task6.csproj.CoreCompileInputs.cache
+C:\Users\ALEXANDR\Desktop\task6\task5\obj\Debug\task5.exe
+C:\Users\ALEXANDR\Desktop\task6\task5\obj\Debug\task5.pdb
+C:\Users\ALEXANDR\Desktop\task6\task5\bin\Debug\task5.exe
+C:\Users\ALEXANDR\Desktop\task6\task5\bin\Debug\task5.pdb
+C:\Users\ALEXANDR\Desktop\задание 3\task5\bin\Debug\task5.exe
+C:\Users\ALEXANDR\Desktop\задание 3\task5\bin\Debug\task5.pdb
+C:\Users\ALEXANDR\Desktop\задание 3\task5\obj\Debug\task6.csprojAssemblyReference.cache
+C:\Users\ALEXANDR\Desktop\задание 3\task5\obj\Debug\task5.Form1.resources
+C:\Users\ALEXANDR\Desktop\задание 3\task5\obj\Debug\task5.Properties.Resources.resources
+C:\Users\ALEXANDR\Desktop\задание 3\task5\obj\Debug\task6.csproj.GenerateResource.cache
+C:\Users\ALEXANDR\Desktop\задание 3\task5\obj\Debug\task6.csproj.CoreCompileInputs.cache
+C:\Users\ALEXANDR\Desktop\задание 3\task5\obj\Debug\task5.exe
+C:\Users\ALEXANDR\Desktop\задание 3\task5\obj\Debug\task5.pdb
+C:\Users\ALEXANDR\Downloads\zakaz-20210412T143502Z-001\zakaz\задание 3\task5\bin\Debug\task5.exe
+C:\Users\ALEXANDR\Downloads\zakaz-20210412T143502Z-001\zakaz\задание 3\task5\bin\Debug\task5.pdb
+C:\Users\ALEXANDR\Downloads\zakaz-20210412T143502Z-001\zakaz\задание 3\task5\obj\Debug\task6.csprojAssemblyReference.cache
+C:\Users\ALEXANDR\Downloads\zakaz-20210412T143502Z-001\zakaz\задание 3\task5\obj\Debug\task5.Form1.resources
+C:\Users\ALEXANDR\Downloads\zakaz-20210412T143502Z-001\zakaz\задание 3\task5\obj\Debug\task5.Properties.Resources.resources
+C:\Users\ALEXANDR\Downloads\zakaz-20210412T143502Z-001\zakaz\задание 3\task5\obj\Debug\task6.csproj.GenerateResource.cache
+C:\Users\ALEXANDR\Downloads\zakaz-20210412T143502Z-001\zakaz\задание 3\task5\obj\Debug\task6.csproj.CoreCompileInputs.cache
+C:\Users\ALEXANDR\Downloads\zakaz-20210412T143502Z-001\zakaz\задание 3\task5\obj\Debug\task5.exe
+C:\Users\ALEXANDR\Downloads\zakaz-20210412T143502Z-001\zakaz\задание 3\task5\obj\Debug\task5.pdb
