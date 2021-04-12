@@ -1,0 +1,50 @@
+C:\Users\ALEXANDR\source\repos\Задание Универ\task3\task3\bin\Debug\task3.exe.config
+C:\Users\ALEXANDR\source\repos\Задание Универ\task3\task3\bin\Debug\task3.exe
+C:\Users\ALEXANDR\source\repos\Задание Универ\task3\task3\bin\Debug\task3.pdb
+C:\Users\ALEXANDR\source\repos\Задание Универ\task3\task3\obj\Debug\task3.csprojAssemblyReference.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\task3\task3\obj\Debug\task3.Form1.resources
+C:\Users\ALEXANDR\source\repos\Задание Универ\task3\task3\obj\Debug\task3.Properties.Resources.resources
+C:\Users\ALEXANDR\source\repos\Задание Универ\task3\task3\obj\Debug\task3.csproj.GenerateResource.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\task3\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\task3\task3\obj\Debug\task3.exe
+C:\Users\ALEXANDR\source\repos\Задание Универ\task3\task3\obj\Debug\task3.pdb
+C:\Users\ALEXANDR\source\repos\Задание Универ\task4\task3\bin\Debug\task3.exe.config
+C:\Users\ALEXANDR\source\repos\Задание Универ\task4\task3\bin\Debug\task3.exe
+C:\Users\ALEXANDR\source\repos\Задание Универ\task4\task3\bin\Debug\task3.pdb
+C:\Users\ALEXANDR\source\repos\Задание Универ\task4\task3\obj\Debug\task3.csprojAssemblyReference.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\task4\task3\obj\Debug\task3.Form1.resources
+C:\Users\ALEXANDR\source\repos\Задание Универ\task4\task3\obj\Debug\task3.Properties.Resources.resources
+C:\Users\ALEXANDR\source\repos\Задание Универ\task4\task3\obj\Debug\task3.csproj.GenerateResource.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\task4\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\task4\task3\obj\Debug\task3.exe
+C:\Users\ALEXANDR\source\repos\Задание Универ\task4\task3\obj\Debug\task3.pdb
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task4\task3\bin\Debug\task3.exe.config
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task4\task3\bin\Debug\task3.exe
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task4\task3\bin\Debug\task3.pdb
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.csprojAssemblyReference.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.Form1.resources
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.Properties.Resources.resources
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.csproj.GenerateResource.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.exe
+C:\Users\ALEXANDR\source\repos\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.pdb
+C:\Users\ALEXANDR\source\repos\Старые проги\Задание Универ\C# Forms\task4\task3\bin\Debug\task3.exe.config
+C:\Users\ALEXANDR\source\repos\Старые проги\Задание Универ\C# Forms\task4\task3\bin\Debug\task3.exe
+C:\Users\ALEXANDR\source\repos\Старые проги\Задание Универ\C# Forms\task4\task3\bin\Debug\task3.pdb
+C:\Users\ALEXANDR\source\repos\Старые проги\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.csprojAssemblyReference.cache
+C:\Users\ALEXANDR\source\repos\Старые проги\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.Form1.resources
+C:\Users\ALEXANDR\source\repos\Старые проги\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.Properties.Resources.resources
+C:\Users\ALEXANDR\source\repos\Старые проги\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.csproj.GenerateResource.cache
+C:\Users\ALEXANDR\source\repos\Старые проги\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+C:\Users\ALEXANDR\source\repos\Старые проги\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.exe
+C:\Users\ALEXANDR\source\repos\Старые проги\Задание Универ\C# Forms\task4\task3\obj\Debug\task3.pdb
+C:\Users\ALEXANDR\Desktop\task4\task3\obj\Debug\task3.csprojAssemblyReference.cache
+C:\Users\ALEXANDR\Desktop\task4\task3\obj\Debug\task3.Form1.resources
+C:\Users\ALEXANDR\Desktop\task4\task3\obj\Debug\task3.Properties.Resources.resources
+C:\Users\ALEXANDR\Desktop\task4\task3\obj\Debug\task3.csproj.GenerateResource.cache
+C:\Users\ALEXANDR\Desktop\task4\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+C:\Users\ALEXANDR\Desktop\task4\task3\obj\Debug\task3.exe
+C:\Users\ALEXANDR\Desktop\task4\task3\obj\Debug\task3.pdb
+C:\Users\ALEXANDR\Desktop\task4\task3\bin\Debug\task3.exe.config
+C:\Users\ALEXANDR\Desktop\task4\task3\bin\Debug\task3.exe
+C:\Users\ALEXANDR\Desktop\task4\task3\bin\Debug\task3.pdb
