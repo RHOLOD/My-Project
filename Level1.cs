@@ -14,9 +14,14 @@ namespace Level1Space
             for (int i = 1; i < l; i += 2)
             {
                     if (i == 1)
-                        s = s + oksana[i] * (oksana[i - 1]);
-                    else
-                        s = s + oksana[i] * (oksana[i - 1]- oksana[i - 2]);
+                    {
+                        s =s+  oksana[i] * (oksana[i - 1]);
+                    }
+                        
+                    if (i < l && i > 1)
+                    {
+                        s = s+ oksana[i-1] * (oksana[i] - oksana[i - 2]);
+                    }
             }
 
             return s;
