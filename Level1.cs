@@ -7,24 +7,112 @@ namespace Level1Space
 {
     public static class Level1
     {
-        public static int odometer(int[] oksana)
+        public static int ConquestCampaign(int N, int M, int L, int[] battalion)
         {
-            int s = 0;
-            int l = oksana.Length;
-            for (int i = 1; i < l; i += 2)
+            int[,] contry = new int[N, M];
+            int[] number = new int[4] { 2, 2, 3, 4 };
+            for (int i = 0; i < N; i++)
             {
-                    if (i == 1)
-                    {
-                        s =s+  oksana[i] * (oksana[i - 1]);
-                    }
-                        
-                    if (i < l && i > 1)
-                    {
-                        s = s+ oksana[i-1] * (oksana[i] - oksana[i - 2]);
-                    }
+                for (int j = 0; j < M; j++)
+                {
+                    contry[i, j] = 0;
+                }
+            }
+            for (int k = 1; k < L * 2 + 1; k += 2)
+            {
+                contry[battalion[k - 1] - 1, battalion[k] - 1] = 2;
             }
 
-            return s;
+            int a = 0;
+            int day = 1;
+
+            while (true)
+            {
+                int h = 1;
+                for (int i = 0; i < N; i++)
+                {
+                    for (int j = 0; j < M; j++)
+                    {
+                        if (contry[i, j] == 1)
+                        {
+                            contry[i, j] = 2;
+                        }
+
+                    }
+                }
+                for (int i = 0; i < N; i++)
+                {
+                    for (int j = 0; j < M; j++)
+                    {
+                        h = h * contry[i, j];
+                    }
+                }
+                if (h == 0)
+                {
+                    for (int i = 0; i < N; i++)
+                    {
+                        for (int j = 0; j < M; j++)
+                        {
+                            if (contry[i, j] == 2)
+                            {
+                                try
+                                {
+                                    if (contry[i + 1, j] != 2)
+                                    {
+                                        contry[i + 1, j] = 1;
+                                    }
+
+                                }
+                                catch
+                                {
+
+                                }
+                                try
+                                {
+                                    if (contry[i - 1, j] != 2)
+                                    {
+                                        contry[i - 1, j] = 1;
+                                    }
+                                }
+                                catch
+                                {
+
+                                }
+                                try
+                                {
+                                    if (contry[i, j + 1] != 2)
+                                    {
+                                        contry[i, j + 1] = 1;
+                                    }
+                                }
+                                catch
+                                {
+
+                                }
+                                try
+                                {
+                                    if (contry[i, j - 1] != 2)
+                                    {
+                                        contry[i, j - 1] = 1;
+                                    }
+                                }
+                                catch
+                                {
+
+                                }
+
+                            }
+                        }
+                    }
+                    day += 1;
+                }
+                else
+                {
+                    break;
+                }
+
+            }
+            return day;
         }
     }
 }
