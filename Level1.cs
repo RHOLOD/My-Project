@@ -7,33 +7,50 @@ namespace Level1Space
 {
     public static class Level1
     {
-        public static string PatternUnlock(int N, int[] hits)
+        public static int[] WordSearch(int len, string s, string subs)
         {
-            int[] massiv = new int[N];
-            for (int i = 0; i < N; i++)
+            string stoka = s;
+            string[] massivStr = new string[15];
+            int n = 0;
+            int m = stoka.Length;
+            do
             {
-                massiv[i] = hits[i];
+                int index = 0;
+                for (int i = len - 1; i >= 0; i--)
+                {
+                    if (stoka[i] == ' ')
+                    {
+                        index = i;
+                        break;
+                    }
+                }
+                if (index == 0) index = len;
+                string text = stoka.Substring(0, index);
+                massivStr[n] = text;
+                n++;
+                stoka = stoka.Remove(0, index + 1);
+                m = stoka.Length;
+                if (m <= 12)
+                {
+                    massivStr[n] = stoka;
+                    n++;
+                    break;
+                }
             }
-            double a = Math.Sqrt(1.00 * 1.00 + 1.00 * 1.00);
-            double b = 1.00000;
-            double s = 0;
-            for (int i = 1; i < N; i++)
+            while (m > 1);
+            int[] masun = new int[n];
+            int numb = subs.Length;
+            for (int j = 0; j < n; j++)
             {
-                if (massiv[i] == 2 && massiv[i - 1] == 9 || massiv[i] == 9 && massiv[i - 1] == 2) s = s + a;
-                else if (massiv[i] == 2 && massiv[i - 1] == 7 || massiv[i] == 7 && massiv[i - 1] == 2) s = s + a;
-                else if (massiv[i] == 2 && massiv[i - 1] == 4 || massiv[i] == 4 && massiv[i - 1] == 2) s = s + a;
-                else if (massiv[i] == 2 && massiv[i - 1] == 6 || massiv[i] == 6 && massiv[i - 1] == 2) s = s + a;
-                else if (massiv[i] == 5 && massiv[i - 1] == 1 || massiv[i] == 1 && massiv[i - 1] == 5) s = s + a;
-                else if (massiv[i] == 5 && massiv[i - 1] == 3 || massiv[i] == 3 && massiv[i - 1] == 5) s = s + a;
-                else if (massiv[i] == 8 && massiv[i - 1] == 1 || massiv[i] == 1 && massiv[i - 1] == 8) s = s + a;
-                else if (massiv[i] == 8 && massiv[i - 1] == 3 || massiv[i] == 3 && massiv[i - 1] == 8) s = s + a;
-                else s = s + b;
+                int lo = massivStr[j].IndexOf(subs);
+                if (lo == 0)
+                {
+                    if (massivStr[j][numb] == ' ')
+                        masun[j] = 1;
+                }
+                else masun[j] = 0;
             }
-            s = Math.Round(s, 5);
-            string str = s.ToString();
-            str = str.Replace(",", "");
-            str = str.Replace("0", "");
-            return str;
+            return masun;
         }
     }
 }
