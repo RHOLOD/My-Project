@@ -10,7 +10,7 @@ namespace Level1Space
         public static int[] WordSearch(int len, string s, string subs)
         {
             string stoka = s;
-            string[] massivStr = new string[15];
+            string[] massivStr = new string[1000];
             int n = 0;
             int m = stoka.Length;
             do
