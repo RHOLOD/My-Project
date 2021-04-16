@@ -31,11 +31,22 @@ namespace Level1Space
                         break;
                     }
                 }
-                if (index == 0) index = len;
+                if (index == 0)
+                {
+                index = len;
+                string text = stoka.Substring(0, index);
+                massivStr[n] = text + " ";
+                n++;
+                stoka = stoka.Remove(0, index);
+                }
+                else
+                {                
                 string text = stoka.Substring(0, index);
                 massivStr[n] = text + " ";
                 n++;
                 stoka = stoka.Remove(0, index + 1);
+                }
+
             }
             while (m > 1);
             int[] masun = new int[n];
