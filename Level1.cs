@@ -15,6 +15,13 @@ namespace Level1Space
             int m = stoka.Length;
             do
             {
+                m = stoka.Length;
+                if (m <= len)
+                {
+                    massivStr[n] = stoka + " ";
+                    n++;
+                    break;
+                }
                 int index = 0;
                 for (int i = len - 1; i >= 0; i--)
                 {
@@ -26,27 +33,23 @@ namespace Level1Space
                 }
                 if (index == 0) index = len;
                 string text = stoka.Substring(0, index);
-                massivStr[n] = text;
+                massivStr[n] = text + " ";
                 n++;
                 stoka = stoka.Remove(0, index + 1);
-                m = stoka.Length;
-                if (m <= 12)
-                {
-                    massivStr[n] = stoka;
-                    n++;
-                    break;
-                }
             }
             while (m > 1);
             int[] masun = new int[n];
             int numb = subs.Length;
+            string moo = subs;
             for (int j = 0; j < n; j++)
             {
-                int lo = massivStr[j].IndexOf(subs);
-                if (lo == 0)
+                int lo = massivStr[j].IndexOf(moo);
+                if (lo >= 0)
                 {
-                    if (massivStr[j][numb] == ' ')
+                    if (massivStr[j][lo + numb] == ' ')
+                    {
                         masun[j] = 1;
+                    }
                 }
                 else masun[j] = 0;
             }
