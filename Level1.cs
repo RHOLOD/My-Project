@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Level1Space
 {
-    public static class Level1
+    public class Level1
     {
-        public static int[] WordSearch(int len, string s, string subs)
+        public int[] WordSearch(int len, string s, string subs)
         {
             string stoka = s;
             int naumbe = s.Length;
@@ -51,12 +52,15 @@ namespace Level1Space
                         n++;
                         stoka = stoka.Remove(0, index + 1);
                     }
+                    else
+                    {
+                        index = len;
+                        string text = stoka.Substring(0, index);
+                        massivStr[n] = text + " ";
+                        n++;
+                        stoka = stoka.Remove(0, index);
+                    }
 
-                    index = len;
-                    string text = stoka.Substring(0, index);
-                    massivStr[n] = text + " ";
-                    n++;
-                    stoka = stoka.Remove(0, index);
                 }
                 else
                 {
