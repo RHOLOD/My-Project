@@ -7,100 +7,36 @@ namespace Level1Space
 {
     public static class Level1
     {
-        public static string TheRabbitsFoot(string s, bool encode)
+        public static int PrintingCosts(string Line)
         {
-            if (encode == true)
+            char[] massivS = new char[95] { ' ', '&', ',', '2', '8', '>', 'D', 'J', 'P', 'V', '\\', 'b', 'h', 'n', 't', 'z', '!', '\'', '-', '3', '9', '?', 'E', 'K', 'Q', 'W', ']', 'c', 'i', 'o', 'u', '{', '\"', '(', '.', '4', ':', '@', 'F', 'L', 'R', 'X', '^', 'd', 'j', 'p', 'v', '|', '#', ')', '/', '5', ';', 'A', 'G', 'M', 'S', 'Y', '_', 'e', 'k', 'q', 'w', '}', '$', '*', '0', '6', '<', 'B', 'H', 'N', 'T', 'Z', '`', 'f', 'l', 'r', 'x', '~', '%', '+', '1', '7', '=', 'C', 'I', 'O', 'U', '[', 'a', 'g', 'm', 's', 'y' };
+            int[] massivN = new int[95] { 0, 24, 7, 22, 23, 10, 26, 18, 23, 19, 10, 25, 21, 18, 17, 19, 9, 3, 7, 23, 26, 15, 26, 21, 31, 26, 18, 17, 15, 20, 17, 18, 6, 12, 4, 21, 8, 32, 20, 16, 28, 18, 7, 25, 20, 25, 13, 12, 24, 12, 10, 27, 11, 24, 25, 28, 25, 14, 8, 23, 21, 25, 19, 18, 29, 17, 22, 26, 10, 29, 25, 25, 16, 22, 3, 18, 16, 13, 13, 9, 22, 13, 19, 16, 14, 20, 18, 26, 23, 18, 23, 30, 22, 21, 24 };
+            int n = Line.Length;
+            string str = Line;
+            int number = 0;
+            int flag = 0;
+            for (int i = 0; i < n; i++)
             {
-                string strk = s.Replace(" ", "");
-                int n = strk.Length;
-                double sq = Math.Round(Math.Sqrt(n), 2);
-                int a = (int)sq;
-                int b = ((int)(sq * 10)) % 10;
-                while (a * b < n)
+                for (int j = 0; j < 95; j++)
                 {
-                    a++;
-                }
-
-                string[] stroki = new string[a];
-                for (int i = 0; i < a; i++)
-                {
-                    int non = strk.Length;
-                    if (non < b)
+                    if (str[i] == massivS[j])
                     {
-                        for (int g = 0; g < (b - non); g++)
-                        {
-                            strk = strk + " ";
-                        }
-                        stroki[i] = strk;
+                        number = number + massivN[j];
+                        flag = 1;
                         break;
                     }
                     else
                     {
-                        stroki[i] = strk.Substring(0, b);
-                        strk = strk.Remove(0, b);
-
+                        flag = 0;
                     }
                 }
-                string rezult = "";
-                for (int j = 0; j < b; j++)
+                if (flag == 0)
                 {
-                    string hoh = "";
-                    for (int l = 0; l < a; l++)
-                    {
-                        if (stroki[l][j] != ' ')
-                        {
-                            hoh = hoh + stroki[l][j].ToString();
-                        }
-                    }
-                    if (j == b - 1)
-                    {
-                        rezult = rezult + hoh;
-                    }
-                    else
-                    {
-                        rezult = rezult + hoh + " ";
-                    }
+                    number += 23;
                 }
-                return rezult;
+                flag = 0;
             }
-            else if (encode == false)
-            {
-                string[] strlist = s.Split(' ');
-                int ni = strlist.Length;
-                int ny = strlist[0].Length;
-
-                string rezult2 = "";
-                for (int e = 0; e < ny; e++)
-                {
-                    string him = "";
-                    if (e == ny - 1)
-                    {
-                        for (int r = 0; r < ni; r++)
-                        {
-                            try
-                            {
-                                him = him + strlist[r][e];
-                            }
-                            catch
-                            {
-                                break;
-                            }
-                        }
-
-                    }
-                    else
-                    {
-                        for (int r = 0; r < ni; r++)
-                        {
-                            him = him + strlist[r][e];
-
-                        }
-                    }
-                    rezult2 = rezult2 + him;
-                }
-                return rezult2;
-            }
-            return "";
+            return number;
         }
     }
 }
