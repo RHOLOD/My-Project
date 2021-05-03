@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Level1Space
 {
-    public class Level1
+    public static class Level1
     {
-        public string MassVote(int N, int[] Votes)
+        public static string MassVote(int N, int[] Votes)
         {
             double[] massivP = new double[N];
             int sto = 0;
