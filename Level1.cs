@@ -17,7 +17,10 @@ namespace Level1Space
                 int s = track[i][0];
                 int k = track[i][1];
                 int z = track[i][2];
-
+                    if (s >= L)
+                    {
+                        return L;
+                    }
                 dlina = s - dlina;
                 result = result + dlina;
 
