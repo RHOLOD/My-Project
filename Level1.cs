@@ -187,7 +187,7 @@ namespace Level1Space
                                 flag5 = 1;
                                 if (flag5x == 1)
                                 {
-                                    Str = "";
+                                    Str = SaveStr;
                                 }
                                 else
                                 {
@@ -210,7 +210,7 @@ namespace Level1Space
                                     }
                                     else
                                     {
-                                        Str = "";
+                                        Str = SaveStr;
                                     }
                                     
                                 }
