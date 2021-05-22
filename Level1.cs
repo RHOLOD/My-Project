@@ -150,7 +150,7 @@ namespace Level1Space
                         else if (d == 3)
                         {
                             int b = int.Parse(command.Substring(2));
-                            if (b > SaveStr.Length)
+                            if (b >= SaveStr.Length)
                             {
                                 Str = "";
                             }
