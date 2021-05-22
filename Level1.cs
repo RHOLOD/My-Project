@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Level1Space
 {
-    public class Level1
+    public static class Level1
     {
 
         static int q = 2;
@@ -26,7 +26,7 @@ namespace Level1Space
         static string SaveStr = "";
         static string Str = "";
 
-        public string BastShoe(string command)
+        public static string BastShoe(string command)
         {
             int myInt;
             bool isNumerical = int.TryParse(command[0].ToString(), out myInt);
