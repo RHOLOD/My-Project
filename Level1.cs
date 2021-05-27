@@ -55,8 +55,9 @@ namespace Level1Space
                 }
                 if (h > 300)
                 {
-                    break;
                     str = "";
+                    break;
+
                 }
             }
             return str;
