@@ -7,7 +7,7 @@ namespace Level1Space
 {
     public static class Level1
     {
-        public static void MatrixTurn(string[] Matrix, int M, int N, int T)
+        public static void MatrixTurn(ref string[] Matrix, int M, int N, int T)
         {
 
         }
