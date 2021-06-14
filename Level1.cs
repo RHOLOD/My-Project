@@ -50,8 +50,6 @@ namespace Level1Space
                     }
                 }
             }
-
-
             string[] massivK = new string[M];
             for (int k = 0; k < M; k++)
             {
