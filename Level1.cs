@@ -12,7 +12,7 @@ namespace Level1Space
             List<int> numbers = new List<int>();
             for (int i = 0; i < N; i++)
             {
-                for (int j = 0; j < N; j++)
+                for (int j = 0; j < N - i; j++)
                 {
                     int k = i + j;
                     if (i == 0)
@@ -53,7 +53,7 @@ namespace Level1Space
             List<int> numbers2 = new List<int>();
             for (int i = 0; i < M; i++)
             {
-                for (int j = 0; j < M; j++)
+                for (int j = 0; j < M - i; j++)
                 {
                     int k = i + j;
                     if (i == 0)
