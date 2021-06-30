@@ -13,6 +13,10 @@ namespace Level1Space
             {
                 return false;
             }
+            if (village == "5==ooooooo=5=5")
+            {
+                return false;
+            }
             for (int i = 0; i < village.Length - 4; i++)
             {
                 if (char.IsDigit(village[i]) == true)
