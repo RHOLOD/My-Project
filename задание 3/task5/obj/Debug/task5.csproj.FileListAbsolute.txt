@@ -1,9 +1,0 @@
-C:\Users\ALEXANDR\source\repos\Задание Универ\task5\task5\bin\Debug\task5.exe
-C:\Users\ALEXANDR\source\repos\Задание Универ\task5\task5\bin\Debug\task5.pdb
-C:\Users\ALEXANDR\source\repos\Задание Универ\task5\task5\obj\Debug\task5.csprojAssemblyReference.cache
-C:\Users\ALEXANDR\source\repos\Задание Универ\task5\task5\obj\Debug\task5.Form1.resources
-C:\Users\ALEXANDR\source\repos\Задание Универ\task5\task5\obj\Debug\task5.Properties.Resources.resources
-C:\Users\ALEXANDR\source\repos\Задание Универ\task5\task5\obj\Debug\task5.csproj.GenerateResource.cache
-C:\Users\ALEXANDR\source\repos\Задание Универ\task5\task5\obj\Debug\task5.csproj.CoreCompileInputs.cache
-C:\Users\ALEXANDR\source\repos\Задание Универ\task5\task5\obj\Debug\task5.exe
-C:\Users\ALEXANDR\source\repos\Задание Универ\task5\task5\obj\Debug\task5.pdb
